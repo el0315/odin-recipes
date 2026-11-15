@@ -1,0 +1,1 @@
+This project was all about creating HTML web pages and using different header, image, and href tags to make recipe pages and navigation around the site.
