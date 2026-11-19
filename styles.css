@@ -1,9 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 h3 {
@@ -11,21 +11,17 @@ h3 {
 }
 
 a {
-  text-decoration: underline;
   color: #1D4ED8;
 }
 
 a:hover {
-  text-decoration: underline;
   color: rgb(99, 156, 179);
 }
 
 img#home {
   display: block;
-  max-width: 100%; 
   height: auto;   
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 img {
@@ -37,6 +33,9 @@ img {
   border-radius: 10%;
 }
 
+
+/* Pertains to recipe page styles */
+
 hr {
     border: 0;
     height: 0;
@@ -45,11 +44,10 @@ hr {
 }
 
 .recipe_list {
-    display: flex;
-    justify-content: center; /* Centers the items horizontally */
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0 0 0;
-    gap: 20px;
-    font-size: x-large;
+  text-align: center;
 }
+.recipe_list li {
+  display: inline-block;
+  margin: 20px;
+  font-size: 20px;
+} 
