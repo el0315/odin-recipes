@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFAFA;
 }
 
 h1 {
@@ -11,11 +16,7 @@ h3 {
 }
 
 a {
-  color: #1D4ED8;
-}
-
-a:hover {
-  color: rgb(99, 156, 179);
+  color: #484a50;
 }
 
 img#home {
@@ -33,7 +34,6 @@ img {
   border-radius: 10%;
 }
 
-
 /* Pertains to recipe page styles */
 
 hr {
@@ -43,11 +43,34 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.recipe_list {
-  text-align: center;
+.recipe-card-container {
+  display: flex;
+  width: 50%;
+  height:200px;
+  border: blue, solid;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
-.recipe_list li {
-  display: inline-block;
-  margin: 20px;
-  font-size: 20px;
-} 
+
+.recipe-card {
+  background-color:rgb(167, 240, 171);
+  border: green solid;
+  margin: 10px;
+  padding: 10px;
+  align-content: center;
+  height: 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(51, 47, 47);
+}
+
+.recipe-card:hover {
+  background-color:rgb(81, 117, 117);
+}
+
+.recipe-card:active {
+  background-color:rgb(36, 51, 51);
+}
+
